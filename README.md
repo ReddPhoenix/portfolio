@@ -1,15 +1,15 @@
 # responsive-portfolio
 
 ## Link
-Link to live site: [Responsive Portfolio](https://reddphoenix.github.io/responsive-portfolio/)
+Link to live site: [Portfolio](https://reddphoenix.github.io/portfolio/)
 
 ## Screenshot of live website
 
-![Website Screenshot](https://github.com/ReddPhoenix/responsive-portfolio/blob/master/assets/live-website-screenshot.png?raw=true)
+![Website Screenshot](./assets/demo.gif)
 
 ## Project Overview
 
-Responsive website developed for Walter Guerrero to reflect experience, projects, and contact information. Developed using Bootstrap code. 
+Responsive website developed for Walter Guerrero to reflect experience, projects, and contact information. Developed using Bulma & Bootstrap code. 
 
 ## Contact Information
 
@@ -18,7 +18,7 @@ Responsive website developed for Walter Guerrero to reflect experience, projects
 
 
 ## Credits
-
+* Jeremy Thomas - Bulma Parallax
 * https://getbootstrap.com
 * https://bootsnipp.com
 * https://w3docs.com
