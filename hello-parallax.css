@@ -106,3 +106,15 @@
     font-size: .5rem;
     padding: 1rem 1.5rem 1rem;
   }
+
+  #nameContainer {
+      padding-top: 5rem;
+  }
+
+  #linkedin-btn {
+      padding-right: 5rem;
+  }
+
+  #github-btn {
+      padding-left: 5rem;
+  }

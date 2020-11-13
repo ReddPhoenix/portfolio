@@ -32,7 +32,7 @@
   <header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light is-fixed-top ">
-      <a class="navbar-brand" href="./home.html">
+      <a class="navbar-brand" href="./index.html">
         <h1>Walter Guerrero</h1>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -42,7 +42,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <!-- Home -->
-          <a class="nav-item nav-link active" href="./home.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
           <!-- Portfolio -->
           <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
           <!-- Contact -->
@@ -50,17 +50,17 @@
         </div>
       </div>
     </nav>
-  </header>
+ 
 
   <!-- LinkedIn/Github buttons -->
-  <section class="section is-small">
+  <section class="navbar section is-small">
     <div class="columns">
       <div class="column is-4-tablet is-3-desktop is-2-widescreen">
         <nav class="menu">
           <p class="menu-label"></p>
           <ul class="menu-list">
             <li>
-              <div class="social-btn">
+              <div class="social-btn" id="linkedin-btn">
                 <div class="social-btn">
                   <!-- LinkedIn  opens in new tab -->
                   <a href="https://www.linkedin.com/in/walter-guerrero-7494201a9" target="_blank">
@@ -70,7 +70,7 @@
               </div>
             </li>
             <li>
-              <div class="social-btn">
+              <div class="social-btn" id="github-btn">
                 <div class="social-btn">
                   <!-- Github opens in new tab -->
                   <a href="https://github.com/ReddPhoenix" target="_blank">
@@ -84,9 +84,10 @@
       </div>
     </div>
   </section>
+</header>
 
   <!-- Name/Position/Location -->
-  <section class="section hero is-small">
+  <section class="section hero is-small" id="nameContainer">
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-1 "><u>Walter Guerrero</u></h1>
